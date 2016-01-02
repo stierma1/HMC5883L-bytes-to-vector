@@ -1,0 +1,30 @@
+{
+  "name": "hmc5883l-bytes-to-vector",
+  "version": "1.0.0",
+  "description": "Convert the raw hex bytes of HMC5883L to a 3d vector.  Note this handles the twos compliment conversion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/HMC5883L-bytes-to-vector.git"
+  },
+  "keywords": [
+    "hmc5883l"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/HMC5883L-bytes-to-vector/issues"
+  },
+  "homepage": "https://github.com/stierma1/HMC5883L-bytes-to-vector#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  }
+}
